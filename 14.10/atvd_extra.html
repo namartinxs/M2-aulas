@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtvdExtra</title>
+</head>
+<body>
+    <h1>Media escolar</h1>
+    <form id="dataForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+
+        <label for="frsemestre">Nota 1º semestre:</label>
+        <input type="number" id="frs" required>
+
+        <label for="scnsemestre">Nota 2º semestre</label>
+        <input type="number" id="scn" required>
+
+        <label for="trdsemestre">Nota 3º semestre</label>
+        <input type="number" id="trd" required>
+
+        <button type="submit">Adicionar</button>
+    </form>
+    
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Notas</th>
+                <th>Média</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+        </tbody>
+    </table>
+
+    <script src="atv_extra.js"></script>
+</body>
+</html>

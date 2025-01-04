@@ -1,0 +1,1 @@
+ Crie um programa que calcule a média de notas de uma turma, armazenando as notas em variáveis usando "let" e declarando constantes utilizando "const" para valores fixos, como o número máximo de notas.
